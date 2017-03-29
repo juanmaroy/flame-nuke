@@ -101,7 +101,7 @@ engines:
   # -------------------------------------------------
   # Flare
   # -------------------------------------------------
-  tk-flare: '@std_flame_flare'
+  # tk-flare: '@std_flame_flare'
   #
   # -------------------------------------------------
   # Shell (tank command)
@@ -109,10 +109,9 @@ engines:
   tk-shell:
     apps:
       tk-multi-launchmaya: '@launch_maya'
-      tk-multi-launchmotionbuilder: '@launch_motionbuilder'
       tk-multi-launchnuke: '@launch_nuke'
-      tk-multi-launchflare: '@launch_flare'
-      tk-multi-launchflamepremium: '@launch_flame_premium'
+      # tk-multi-launchflare: '@launch_flare'
+      # tk-multi-launchflamepremium: '@launch_flame_premium'
       tk-multi-launchflame: '@launch_flame'
       tk-multi-launchphotoshop: '@launch_photoshop'
       tk-multi-screeningroom: '@launch_screeningroom'
