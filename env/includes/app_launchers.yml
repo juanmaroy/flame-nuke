@@ -38,7 +38,7 @@ launch_flame:
   linux_args: ''
   linux_path: '@flame_linux'
   location:
-    version: v0.8.0
+    version: v0.8.2
     type: app_store
     name: tk-multi-launchapp
   mac_args: ''
@@ -131,7 +131,7 @@ launch_maya:
   linux_args: ''
   linux_path: '@maya_linux'
   location:
-    version: v0.8.0
+    version: v0.8.2
     type: app_store
     name: tk-multi-launchapp
   mac_args: ''
@@ -154,7 +154,7 @@ launch_nuke:
   linux_args: ''
   linux_path: '@nuke_linux'
   location:
-    version: v0.8.0
+    version: v0.8.2
     type: app_store
     name: tk-multi-launchapp
   mac_args: ''
@@ -177,7 +177,7 @@ launch_nukestudio:
   linux_args: --studio
   linux_path: '@nukestudio_linux'
   location:
-    version: v0.8.0
+    version: v0.8.2
     type: app_store
     name: tk-multi-launchapp
   mac_args: ''
@@ -193,14 +193,14 @@ launch_nukestudio:
 launch_photoshop:
   defer_keyword: ''
   engine: tk-photoshopcc
-  extra: '@photoshop_extras'
+  extra: {}
   hook_app_launch: default
   hook_before_app_launch: default
   icon: '{target_engine}/icon_256.png'
   linux_args: ''
   linux_path: ''
   location:
-    version: v0.8.0
+    version: v0.8.2
     type: app_store
     name: tk-multi-launchapp
   mac_args: ''

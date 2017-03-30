@@ -34,7 +34,7 @@ engines:
       tk-multi-breakdown:
         hook_scene_operations: '{self}/tk-maya_scene_operations.py'
         location:
-          version: v1.4.4
+          version: v1.4.6
           type: app_store
           name: tk-multi-breakdown
       tk-multi-loader2:
@@ -63,7 +63,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.13.4
+          version: v1.14.3
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -82,7 +82,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.9.6
+          version: v0.10.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current Maya scene
@@ -117,7 +117,7 @@ engines:
             filters: {}
         actions_hook: '{self}/general_actions.py:{self}/tk-maya_actions.py'
         location:
-          version: v1.2.14
+          version: v1.3.3
           type: app_store
           name: tk-multi-shotgunpanel
         shotgun_fields_hook: '{self}/shotgun_fields.py'
@@ -126,7 +126,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.6.1
+          version: v0.7.3
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: maya_shot_snapshot
@@ -153,7 +153,7 @@ engines:
         hook_scene_operation: default
         launch_at_startup: false
         location:
-          version: v0.8.2
+          version: v0.9.4
           type: app_store
           name: tk-multi-workfiles2
         my_tasks_extra_display_fields: []
@@ -168,7 +168,7 @@ engines:
     compatibility_dialog_min_version: 2015
     debug_logging: false
     location:
-      version: v0.7.14
+      version: v0.7.16
       type: app_store
       name: tk-maya
     menu_favourites:
@@ -189,7 +189,7 @@ engines:
       tk-multi-breakdown:
         hook_scene_operations: '{self}/tk-nuke_scene_operations.py'
         location:
-          version: v1.4.4
+          version: v1.4.6
           type: app_store
           name: tk-multi-breakdown
       tk-multi-loader2:
@@ -220,7 +220,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.13.4
+          version: v1.14.3
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -239,7 +239,7 @@ engines:
         hook_secondary_publish: '{config}/multi_publish/nuke/secondary_publish.py'
         hook_thumbnail: default
         location:
-          version: v0.9.6
+          version: v0.10.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publishes and versions up the current Nuke script.
@@ -314,7 +314,7 @@ engines:
             filters: {}
         actions_hook: '{self}/general_actions.py:{self}/tk-nuke_actions.py'
         location:
-          version: v1.2.14
+          version: v1.3.3
           type: app_store
           name: tk-multi-shotgunpanel
         shotgun_fields_hook: '{self}/shotgun_fields.py'
@@ -323,7 +323,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.6.1
+          version: v0.7.3
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: nuke_shot_snapshot
@@ -350,7 +350,7 @@ engines:
         hook_scene_operation: default
         launch_at_startup: false
         location:
-          version: v0.8.2
+          version: v0.9.4
           type: app_store
           name: tk-multi-workfiles2
         my_tasks_extra_display_fields: []
@@ -366,7 +366,7 @@ engines:
         current_scene_template: nuke_shot_work
         height: 768
         location:
-          version: v0.3.4
+          version: v0.3.5
           type: app_store
           name: tk-nuke-quickdailies
         movie_template: shot_quicktime_quick
@@ -418,7 +418,7 @@ engines:
     debug_logging: false
     favourite_directories: []
     location:
-      version: v0.6.11
+      version: v0.6.12
       type: app_store
       name: tk-nuke
     menu_favourites:
@@ -452,7 +452,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.9.6
+          version: v0.10.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the selected Hiero project
@@ -468,7 +468,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.6.1
+          version: v0.7.3
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: hiero_project_snapshot
@@ -489,7 +489,7 @@ engines:
         hook_scene_operation: default
         launch_at_startup: false
         location:
-          version: v0.8.2
+          version: v0.9.4
           type: app_store
           name: tk-multi-workfiles2
         my_tasks_extra_display_fields: []
@@ -505,7 +505,7 @@ engines:
         current_scene_template: nuke_shot_work
         height: 768
         location:
-          version: v0.3.4
+          version: v0.3.5
           type: app_store
           name: tk-nuke-quickdailies
         movie_template: shot_quicktime_quick
@@ -578,7 +578,7 @@ engines:
       tk-multi-breakdown:
         hook_scene_operations: '{self}/tk-nuke_scene_operations.py'
         location:
-          version: v1.4.4
+          version: v1.4.6
           type: app_store
           name: tk-multi-breakdown
       tk-multi-loader2:
@@ -607,7 +607,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.13.4
+          version: v1.14.3
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -630,7 +630,7 @@ engines:
             filters: {}
         actions_hook: '{self}/general_actions.py:{self}/tk-nuke_actions.py'
         location:
-          version: v1.2.14
+          version: v1.3.3
           type: app_store
           name: tk-multi-shotgunpanel
         shotgun_fields_hook: '{self}/shotgun_fields.py'
@@ -648,7 +648,7 @@ engines:
     compatibility_dialog_min_version: 10
     debug_logging: false
     location:
-      version: v0.6.11
+      version: v0.6.12
       type: app_store
       name: tk-nuke
     menu_favourites:
@@ -687,7 +687,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.13.4
+          version: v1.14.3
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -706,7 +706,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.9.6
+          version: v0.10.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current Photoshop scene
@@ -723,7 +723,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.6.1
+          version: v0.7.3
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: photoshop_shot_snapshot
@@ -750,7 +750,7 @@ engines:
         hook_scene_operation: default
         launch_at_startup: false
         location:
-          version: v0.8.2
+          version: v0.9.4
           type: app_store
           name: tk-multi-workfiles2
         my_tasks_extra_display_fields: []
@@ -764,7 +764,7 @@ engines:
         version_compare_ignore_fields: []
       tk-multi-shotgunpanel:
         location:
-          version: v1.2.14
+          version: v1.3.3
           type: app_store
           name: tk-multi-shotgunpanel
         shotgun_fields_hook: '{self}/shotgun_fields.py'
@@ -791,7 +791,7 @@ engines:
     - {app_instance: tk-multi-publish, name: Publish...}
     debug_logging: false
     location:
-      version: v1.01.1
+      version: v1.0.17
       type: app_store
       name: tk-photoshopcc
   #
@@ -818,4 +818,4 @@ engines:
 # common functionality for building UIs and communicating with Shotgun.
 # Frameworks are automatically installed when apps are installed and udpated.
 #
-frameworks: null
+frameworks:

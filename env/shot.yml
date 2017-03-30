@@ -46,7 +46,7 @@ engines:
     compatibility_dialog_min_version: 2015
     debug_logging: false
     location:
-      version: v0.7.14
+      version: v0.7.16
       type: app_store
       name: tk-maya
     menu_favourites:
@@ -66,7 +66,7 @@ engines:
     debug_logging: false
     favourite_directories: []
     location:
-      version: v0.6.11
+      version: v0.6.12
       type: app_store
       name: tk-nuke
     menu_favourites:
@@ -91,10 +91,9 @@ engines:
     - {app_instance: tk-multi-workfiles2, name: File Save...}
     debug_logging: false
     location:
-      version: v1.0.1
+      version: v1.0.17
       type: app_store
       name: tk-photoshopcc
-
   #
   # -------------------------------------------------
   # Flame
@@ -130,4 +129,4 @@ engines:
 # common functionality for building UIs and communicating with Shotgun.
 # Frameworks are automatically installed when apps are installed and udpated.
 #
-frameworks: null
+frameworks:

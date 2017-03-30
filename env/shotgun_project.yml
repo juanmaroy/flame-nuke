@@ -31,9 +31,9 @@ engines:
   tk-shotgun:
     apps:
       tk-multi-launchflame: '@launch_flame'
-      tk-multi-launchflare: '@launch_flare'
-      tk-multi-launchflameassist: '@launch_flame_assist'
-      tk-multi-launchflamepremium: '@launch_flame_premium'
+      # tk-multi-launchflare: '@launch_flare'
+      # tk-multi-launchflameassist: '@launch_flame_assist'
+      # tk-multi-launchflamepremium: '@launch_flame_premium'
       tk-multi-launchmaya: '@launch_maya'
       tk-multi-launchnuke: '@launch_nuke'
       tk-multi-launchnukestudio: '@launch_nukestudio'
