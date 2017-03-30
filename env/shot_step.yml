@@ -1156,14 +1156,14 @@ engines:
   # -------------------------------------------------
   # photoshop
   # -------------------------------------------------
-  tk-photoshop:
+  tk-photoshopcc:
     apps:
       tk-multi-about: '@about'
       tk-multi-loader2:
         action_mappings:
           Photoshop Image: [add_as_a_layer, open_file]
           Rendered Image: [add_as_a_layer, open_file]
-        actions_hook: '{self}/tk-photoshop_actions.py'
+        actions_hook: default
         download_thumbnails: true
         entities:
         - caption: Assets
@@ -1281,11 +1281,16 @@ engines:
             - quicktime_clipboard
             - sequence_clipboard
             filters: {}
+    shelf_favorites:
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
+    - {app_instance: tk-multi-snapshot, name: Snapshot...}
+    - {app_instance: tk-multi-workfiles2, name: File Save...}
+    - {app_instance: tk-multi-publish, name: Publish...}
     debug_logging: false
     location:
-      version: v0.3.6
+      version: v1.01.1
       type: app_store
-      name: tk-photoshop
+      name: tk-photoshopcc
   #
   # -------------------------------------------------
   # Shell (tank command)

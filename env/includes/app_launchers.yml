@@ -192,7 +192,7 @@ launch_nukestudio:
 # -------------------------------------------------
 launch_photoshop:
   defer_keyword: ''
-  engine: tk-photoshop
+  engine: tk-photoshopcc
   extra: '@photoshop_extras'
   hook_app_launch: default
   hook_before_app_launch: default
